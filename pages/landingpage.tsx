@@ -184,7 +184,7 @@ useEffect(() => {
       href="https://devtofunmi.netlify.app"
       target="_blank"
       rel="noopener noreferrer"
-      className="text-indigo-600 hover:underline"
+      className="font-bold hover:underline"
     >
       Tofunmi
     </a>
