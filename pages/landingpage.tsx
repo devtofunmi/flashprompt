@@ -138,7 +138,7 @@ useEffect(() => {
               {category}
             </span>
           </div>
-          <p className="text-gray-800 mb-4 whitespace-normal break-words animate-typing border-r-2 border-gray-300 inline-block w-full sm:w-auto">
+          <p className="text-gray-800 mb-4 whitespace-normal break-words  border-r-2 border-gray-300 inline-block w-full sm:w-auto">
             {prompt}
           </p>
 
@@ -190,25 +190,6 @@ useEffect(() => {
     </a>
   </footer>
 
-
-  <style>{`
-  .typewriter {
-    display: inline;
-    overflow-wrap: break-word;
-    white-space: normal;
-    border-right: 2px solid #ccc;
-    animation: typing 3s steps(40, end) forwards, blink .8s infinite;
-  }
-
-  @keyframes typing {
-    from { width: 0; }
-    to { width: 100%; }
-  }
-
-  @keyframes blink {
-    50% { border-color: transparent; }
-  }
-`}</style>
 
     </main>
   );
