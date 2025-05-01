@@ -24,7 +24,7 @@ const FavoritesModal: React.FC<FavoritesModalProps> = ({ favorites, onClose, set
   return (
     <div className="fixed inset-0 bg-black/40 backdrop-blur-sm flex justify-center items-center z-50">
       <div className="bg-white p-6 rounded-xl w-[350px] md:w-lg shadow-lg relative">
-        <button className="absolute top-2 right-3 text-gray-500 hover:text-pink-500" onClick={onClose}>
+        <button className="absolute cursor-pointer top-2 right-3 text-gray-500 hover:text-pink-500" onClick={onClose}>
           ✖
         </button>
         <h2 className="text-xl font-semibold mb-4 text-gray-800">Favorites</h2>
