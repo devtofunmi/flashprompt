@@ -8,7 +8,7 @@ interface HistoryModalProps {
 
 const HistoryModal: React.FC<HistoryModalProps> = ({ sessionHistory, onClose }) => {
   return (
-    <div className="fixed inset-0 bg-black/40 backdrop-blur-sm flex justify-center items-center z-50">
+    <div className="fixed inset-0 cursor-pointer bg-black/40 backdrop-blur-sm flex justify-center items-center z-50">
       <div className="bg-white p-6 rounded-xl w-[350px] md:w-lg shadow-lg relative">
         <button className="absolute top-2 right-3 text-gray-500 hover:text-indigo-500" onClick={onClose}>
           ✖
