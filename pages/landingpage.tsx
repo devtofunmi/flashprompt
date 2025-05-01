@@ -138,7 +138,10 @@ useEffect(() => {
               {category}
             </span>
           </div>
-          <p className="typewriter text-gray-800 mb-4">{prompt}</p>
+          <p className="text-gray-800 mb-4 whitespace-normal break-words animate-typing border-r-2 border-gray-300 inline-block w-full sm:w-auto">
+            {prompt}
+          </p>
+
           <div className="flex gap-4">
             <button onClick={copyToClipboard} className="text-sm  cursor-pointer text-indigo-600 hover:underline font-medium">
               {copied ? "Copied!" : "Copy"}
@@ -188,25 +191,25 @@ useEffect(() => {
   </footer>
 
 
-      <style>{`
-        .typewriter {
-          display: inline-block;
-          overflow: hidden;
-          white-space: nowrap;
-          border-right: 2px solid #ccc;
-          width: 0;
-          animation: typing 3s steps(40, end) forwards, blink .8s infinite;
-        }
+  <style>{`
+  .typewriter {
+    display: inline;
+    overflow-wrap: break-word;
+    white-space: normal;
+    border-right: 2px solid #ccc;
+    animation: typing 3s steps(40, end) forwards, blink .8s infinite;
+  }
 
-        @keyframes typing {
-          from { width: 0; }
-          to { width: 100%; }
-        }
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
 
-        @keyframes blink {
-          50% { border-color: transparent; }
-        }
-      `}</style>
+  @keyframes blink {
+    50% { border-color: transparent; }
+  }
+`}</style>
+
     </main>
   );
 };
