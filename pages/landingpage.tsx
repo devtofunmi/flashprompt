@@ -95,9 +95,11 @@ useEffect(() => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <h1 className='md:text-6xl text-5xl font-bold md:mt-[200px] mt-[150px]'>
-          Craft <span className='text-indigo-600'>Perfect AI Prompts</span> <br /> in Seconds, Not Hours
-        </h1>
+       <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mt-24 md:mt-48 text-center leading-tight">
+  Generate <span className="text-indigo-600">Brilliant AI Prompts</span>
+  <br className="hidden sm:block" /> Instantly, Not Eventually
+</h1>
+
         <p className="mt-4 text-gray-600 max-w-xl mx-auto text-lg">
           Generate powerful AI prompts for coding, content, and startup ideas — instantly.
         </p>
@@ -172,17 +174,18 @@ useEffect(() => {
         />
       )}
 
-    <footer className="mt-20 text-sm text-gray-400">
-      Built with 🖤 by{" "}
-      <a
-        href="https://devtofunmi.netlify.app"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-indigo-600 cursor-pointer hover:underline"
-      >
-        Tofunmi
-      </a>
-    </footer>
+    {/* Footer */}
+    <footer className="w-full text-sm text-gray-400 text-center py-4 mt-auto relative bottom-0">
+    Built with 🖤 by{' '}
+    <a
+      href="https://devtofunmi.netlify.app"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-indigo-600 hover:underline"
+    >
+      Tofunmi
+    </a>
+  </footer>
 
 
       <style>{`
