@@ -180,14 +180,14 @@ useEffect(() => {
     {/* Footer */}
     <footer className="w-full text-sm text-gray-400 text-center py-4 mt-auto relative bottom-0">
     Built with 🖤 by{' '}
-    <a
-      href="www.tofunmi.xyz"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="font-bold hover:underline"
-    >
-      Tofunmi
-    </a>
+        <a
+       href="https://www.tofunmi.xyz"
+       target="_blank"
+       rel="noopener noreferrer"
+       className="font-semibold hover:underline"
+     >
+       Tofunmi
+     </a>
   </footer>
 
 
