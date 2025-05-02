@@ -96,9 +96,9 @@ useEffect(() => {
         transition={{ duration: 0.5 }}
       >
        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mt-24 md:mt-48 text-center leading-tight">
-  Generate <span className="text-indigo-600">Brilliant AI Prompts</span>
-  <br className="hidden sm:block" /> Instantly, Not Eventually
-</h1>
+         Generate <span className="text-indigo-600">Brilliant AI Prompts</span>
+         <br className="hidden sm:block" /> Instantly, Not Eventually
+       </h1>
 
         <p className="mt-4 text-gray-600 max-w-xl mx-auto text-lg">
           Generate powerful AI prompts for coding, content, and startup ideas — instantly.
@@ -181,7 +181,7 @@ useEffect(() => {
     <footer className="w-full text-sm text-gray-400 text-center py-4 mt-auto relative bottom-0">
     Built with 🖤 by{' '}
     <a
-      href="https://devtofunmi.netlify.app"
+      href="www.tofunmi.xyz"
       target="_blank"
       rel="noopener noreferrer"
       className="font-bold hover:underline"
