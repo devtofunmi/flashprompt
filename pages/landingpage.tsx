@@ -58,7 +58,6 @@ useEffect(() => {
   };
 
   useEffect(() => {
-    // This runs only on the client
     const savedFavorites = localStorage.getItem('favorites');
     if (savedFavorites) {
       setFavorites(JSON.parse(savedFavorites));
@@ -66,7 +65,7 @@ useEffect(() => {
   }, []);
 
   const saveToFavorites = () => {
-    if (!isClient) return; // Guard
+    if (!isClient) return;
   
     if (!favorites.includes(prompt)) {
       const updated = [...favorites, prompt];
