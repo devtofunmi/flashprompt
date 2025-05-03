@@ -1,4 +1,3 @@
-// components/HistoryModal.tsx
 import React from "react";
 
 interface HistoryModalProps {
